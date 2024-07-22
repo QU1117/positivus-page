@@ -1,0 +1,22 @@
+@use "./companies-marquee__content";
+@use "./keyframes";
+@use "./companies-marquee__content-reverse";
+
+.header-companies-marquee {
+  display: flex;
+  user-select: none;
+  gap: 2.375rem;
+
+  ul {
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-companies-marquee__content,
+  .header-companies-marquee__content-reverse {
+    animation-play-state: paused !important;
+  }
+}
