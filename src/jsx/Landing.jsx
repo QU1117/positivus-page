@@ -1,11 +1,10 @@
 import { createRoot } from "react-dom/client";
-import Marquee from "./header/Marquee";
+import LandingTopHeader from "./header/LandingTopHeader";
 
 const Landing = () => {
   return (
     <>
-      <Marquee />
-      <Marquee reverse={true} />
+      <LandingTopHeader />
     </>
   );
 };
