@@ -1,7 +1,21 @@
-const Marquee = () => {
+import { useState, useEffect } from "react";
+
+const Marquee = ({ reverse }) => {
+  const [ulClassName, setUlClassName] = useState(
+    "header-companies-marquee__content",
+  );
+
+  useEffect(() => {
+    if (reverse) {
+      setUlClassName(
+        "header-companies-marquee__content header-companies-marquee__content-reverse",
+      );
+    }
+  }, [reverse]);
+
   return (
     <div className="header-companies-marquee">
-      <ul className="header-companies-marquee__content">
+      <ul className={ulClassName}>
         <li>
           <img
             src="../../assets/Amazon.svg"
@@ -51,7 +65,7 @@ const Marquee = () => {
           />
         </li>
       </ul>
-      <ul className="header-companies-marquee__content" aria-hidden="true">
+      <ul className={ulClassName} aria-hidden="true">
         <li>
           <img
             src="../../assets/Amazon.svg"
