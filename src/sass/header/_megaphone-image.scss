@@ -1,6 +1,8 @@
 .header-megaphone-image {
   display: block;
-  margin: 0.625rem auto 0 auto;
-  max-width: calc(100% - 0.875rem);
+  margin: .625rem auto 1.25rem auto;
+  max-width: 100%;
   height: auto;
+  $paddingHorizontal: 2.125rem;
+  padding: 0 $paddingHorizontal 0 $paddingHorizontal;
 }

@@ -1,13 +1,18 @@
-.header-booking-button {
+@use "./button-container";
+
+.primary-button {
   width: 100%;
-  margin: 2.5rem 0 0 0;
   background-color: #191a23;
   color: #fff;
   font-family: "Space Grotesk Regular", sans-serif;
   font-size: 1.25rem;
   border-radius: 0.875rem;
-  padding: 0 2.1875rem 0 2.1875rem;
   height: 4.25rem;
   border: none;
   cursor: pointer;
+  margin: 2.5rem 0 3.75rem 0;
+  $paddingX: 2.1875rem;
+  $paddingY: 1.25rem;
+  padding: $paddingY $paddingX $paddingY $paddingX;
+  display: block;
 }

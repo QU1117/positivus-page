@@ -1,5 +1,8 @@
 .header-main-text {
   font-family: "Space Grotesk Regular", sans-serif;
   font-size: 1rem;
-  margin: 1.25rem 0 0 0;
+  $marginHorizontal: 0.625rem;
+  margin: 0 $marginHorizontal 0 $marginHorizontal;
+  $paddingHorizontal: 0.625rem;
+  padding: 0 $paddingHorizontal 0 $paddingHorizontal;
 }
