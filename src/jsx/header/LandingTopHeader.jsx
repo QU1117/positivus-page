@@ -1,9 +1,11 @@
 import Marquee from "./Marquee";
+import Navigation from "./nav/Navigation";
 
 const LandingTopHeader = () => {
   return (
     <>
       <header>
+        <Navigation />
         <section>
           <header className="header-title-text">
             <h1>Navigating the digital landscape for success</h1>
