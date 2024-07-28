@@ -1,0 +1,7 @@
+.header-top-nav {
+  display: flex;
+  margin: 1.875rem 0 2.5rem 0;
+  $paddingX: 1.25rem;
+  padding: 0 $paddingX 0 $paddingX;
+  justify-content: space-between;
+}
