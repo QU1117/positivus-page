@@ -1,0 +1,10 @@
+.button-main-style {
+  height: 4.25rem;
+  font-family: "Space Grotesk Regular", sans-serif;
+  font-size: 1.25rem;
+  border-radius: 0.875rem;
+  cursor: pointer;
+  $paddingX: 2.1875rem;
+  $paddingY: 1.25rem;
+  padding: $paddingY $paddingX $paddingY $paddingX;
+}
