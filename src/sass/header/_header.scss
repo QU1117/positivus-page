@@ -1,7 +1,8 @@
 @use "megaphone-image";
-@use "button/primary-button";
-@use "button/button-container";
+@use "button/booking-button";
+@use "button/booking-button-container";
 @use "title-text";
 @use "main-text";
 @use "./companies-marquee/companies-marquee";
 @use "./nav/navigation";
+@use "./header-top-nav";
