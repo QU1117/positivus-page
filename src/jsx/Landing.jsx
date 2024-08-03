@@ -1,14 +1,15 @@
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import LandingTopHeader from "./header/LandingTopHeader";
+import LandingTop from "./header/LandingTop";
 
 const Landing = () => {
-  return (
-    <>
-      <LandingTopHeader />
-    </>
-  );
+  return <LandingTop />;
 };
 
 const container = document.querySelector("#root");
 const root = createRoot(container);
-root.render(<Landing />);
+root.render(
+  <StrictMode>
+    <Landing />
+  </StrictMode>,
+);
