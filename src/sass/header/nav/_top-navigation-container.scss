@@ -1,0 +1,16 @@
+.top-navigation-container {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #191a23;
+  overflow-x: hidden;
+  padding-top: 0.625rem;
+  transition: 0.5s;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
