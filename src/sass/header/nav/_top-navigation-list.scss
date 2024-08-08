@@ -1,0 +1,26 @@
+.top-navigation-list {
+  list-style-type: none;
+  font-family: "Space Grotesk Semibold", sans-serif;
+  li {
+    button {
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+      color: #b9ff66;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    &:last-child {
+      button {
+        margin-top: 1.25rem;
+        margin-right: 1.25rem;
+        padding: 0.625rem 1.5625rem;
+        width: fit-content;
+        font-size: 2rem;
+        border: 0.0625rem solid #fff;
+        border-radius: 0.875rem;
+      }
+    }
+  }
+}
