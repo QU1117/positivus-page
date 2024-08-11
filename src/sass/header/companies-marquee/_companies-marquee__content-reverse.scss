@@ -1,3 +1,9 @@
 .header-companies-marquee__content-reverse {
   animation-direction: reverse;
 }
+
+@media (min-width: 37.5rem) {
+  .header-companies-marquee__content-reverse {
+    display: none;
+  }
+}
