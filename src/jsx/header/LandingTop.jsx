@@ -86,10 +86,10 @@ const LandingTop = () => {
             Book a consultation
           </button>
         </div>
-
-        <Marquee />
-        <Marquee reverse={true} />
       </section>
+
+      <Marquee />
+      <Marquee reverse={true} />
     </>
   );
 };
