@@ -28,3 +28,10 @@
     animation-play-state: paused !important;
   }
 }
+
+@media (min-width: 37.5rem) {
+  .header-companies-marquee + .header-companies-marquee {
+    display: none;
+    margin: 0;
+  }
+}
