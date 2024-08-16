@@ -11,7 +11,8 @@ const Marquee = ({ reverse }) => {
         "header-companies-marquee__content header-companies-marquee__content-reverse",
       );
     }
-  }, [reverse]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="header-companies-marquee">
