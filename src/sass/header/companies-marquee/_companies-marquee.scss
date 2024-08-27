@@ -1,6 +1,7 @@
 @use "./companies-marquee__content";
 @use "./keyframes";
 @use "./companies-marquee__content-reverse";
+@use "../../globals/variables" as gvars;
 
 .header-companies-marquee {
   display: flex;
@@ -29,7 +30,7 @@
   }
 }
 
-@media (min-width: 37.5rem) {
+@media (min-width: gvars.$desktop-media) {
   .header-companies-marquee + .header-companies-marquee {
     display: none;
     margin: 0;
